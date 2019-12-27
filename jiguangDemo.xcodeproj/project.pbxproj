@@ -29,6 +29,26 @@
 		3D57418A23B4A27E00B066C7 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D57418923B4A27E00B066C7 /* UserNotifications.framework */; };
 		3D57418C23B4A29300B066C7 /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D57418B23B4A29300B066C7 /* libresolv.tbd */; };
 		3D57419323B4A4B000B066C7 /* JpushPublicManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D57419223B4A4B000B066C7 /* JpushPublicManager.m */; };
+		3D6AC13323B599C3001C3B5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6AC13223B599C3001C3B5A /* AppDelegate.swift */; };
+		3D6AC13523B599C3001C3B5A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6AC13423B599C3001C3B5A /* SceneDelegate.swift */; };
+		3D6AC13723B599C3001C3B5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6AC13623B599C3001C3B5A /* ViewController.swift */; };
+		3D6AC13A23B599C3001C3B5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D6AC13823B599C3001C3B5A /* Main.storyboard */; };
+		3D6AC13C23B599CA001C3B5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D6AC13B23B599CA001C3B5A /* Assets.xcassets */; };
+		3D6AC13F23B599CA001C3B5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D6AC13D23B599CA001C3B5A /* LaunchScreen.storyboard */; };
+		3D6AC14D23B59EC6001C3B5A /* jpush-extension-ios-1.1.2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D6AC14823B59EC6001C3B5A /* jpush-extension-ios-1.1.2.a */; };
+		3D6AC14E23B59EC6001C3B5A /* jpush-ios-3.2.8.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D6AC14A23B59EC6001C3B5A /* jpush-ios-3.2.8.a */; };
+		3D6AC14F23B59EC6001C3B5A /* jcore-noidfa-ios-2.1.8.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D6AC14C23B59EC6001C3B5A /* jcore-noidfa-ios-2.1.8.a */; };
+		3D6AC15023B5A3FF001C3B5A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D57418523B4A26800B066C7 /* Security.framework */; };
+		3D6AC15123B5A408001C3B5A /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D57418923B4A27E00B066C7 /* UserNotifications.framework */; };
+		3D6AC15223B5A40E001C3B5A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D57418323B4A26200B066C7 /* UIKit.framework */; };
+		3D6AC15323B5A41A001C3B5A /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D57418B23B4A29300B066C7 /* libresolv.tbd */; };
+		3D6AC15423B5A421001C3B5A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D57418123B4A25C00B066C7 /* Foundation.framework */; };
+		3D6AC15523B5A427001C3B5A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D57417F23B4A25400B066C7 /* CoreGraphics.framework */; };
+		3D6AC15623B5A42D001C3B5A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D57417D23B4A24D00B066C7 /* SystemConfiguration.framework */; };
+		3D6AC15723B5A436001C3B5A /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D57417B23B4A24600B066C7 /* CoreTelephony.framework */; };
+		3D6AC15823B5A43F001C3B5A /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D57417923B4A23F00B066C7 /* CoreFoundation.framework */; };
+		3D6AC15923B5A446001C3B5A /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D57417723B4A23800B066C7 /* CFNetwork.framework */; };
+		3D6AC15B23B5A5F2001C3B5A /* JPushPublicManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6AC15A23B5A5F2001C3B5A /* JPushPublicManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,6 +83,22 @@
 		3D57418B23B4A29300B066C7 /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
 		3D57419123B4A4B000B066C7 /* JpushPublicManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JpushPublicManager.h; sourceTree = "<group>"; };
 		3D57419223B4A4B000B066C7 /* JpushPublicManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JpushPublicManager.m; sourceTree = "<group>"; };
+		3D6AC13023B599C3001C3B5A /* Swift-JiGuangDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift-JiGuangDemo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D6AC13223B599C3001C3B5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3D6AC13423B599C3001C3B5A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3D6AC13623B599C3001C3B5A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3D6AC13923B599C3001C3B5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D6AC13B23B599CA001C3B5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D6AC13E23B599CA001C3B5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3D6AC14023B599CA001C3B5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D6AC14423B599E2001C3B5A /* Swift-JiGuangDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Swift-JiGuangDemo.entitlements"; sourceTree = "<group>"; };
+		3D6AC14523B59E8D001C3B5A /* Swift-JiGuangDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Swift-JiGuangDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		3D6AC14823B59EC6001C3B5A /* jpush-extension-ios-1.1.2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "jpush-extension-ios-1.1.2.a"; sourceTree = "<group>"; };
+		3D6AC14923B59EC6001C3B5A /* JPushNotificationExtensionService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPushNotificationExtensionService.h; sourceTree = "<group>"; };
+		3D6AC14A23B59EC6001C3B5A /* jpush-ios-3.2.8.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "jpush-ios-3.2.8.a"; sourceTree = "<group>"; };
+		3D6AC14B23B59EC6001C3B5A /* JPUSHService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPUSHService.h; sourceTree = "<group>"; };
+		3D6AC14C23B59EC6001C3B5A /* jcore-noidfa-ios-2.1.8.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "jcore-noidfa-ios-2.1.8.a"; sourceTree = "<group>"; };
+		3D6AC15A23B5A5F2001C3B5A /* JPushPublicManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPushPublicManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +123,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3D6AC12D23B599C3001C3B5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D6AC15923B5A446001C3B5A /* CFNetwork.framework in Frameworks */,
+				3D6AC15823B5A43F001C3B5A /* CoreFoundation.framework in Frameworks */,
+				3D6AC15723B5A436001C3B5A /* CoreTelephony.framework in Frameworks */,
+				3D6AC15623B5A42D001C3B5A /* SystemConfiguration.framework in Frameworks */,
+				3D6AC15523B5A427001C3B5A /* CoreGraphics.framework in Frameworks */,
+				3D6AC15423B5A421001C3B5A /* Foundation.framework in Frameworks */,
+				3D6AC15323B5A41A001C3B5A /* libresolv.tbd in Frameworks */,
+				3D6AC15223B5A40E001C3B5A /* UIKit.framework in Frameworks */,
+				3D6AC15123B5A408001C3B5A /* UserNotifications.framework in Frameworks */,
+				3D6AC15023B5A3FF001C3B5A /* Security.framework in Frameworks */,
+				3D6AC14F23B59EC6001C3B5A /* jcore-noidfa-ios-2.1.8.a in Frameworks */,
+				3D6AC14E23B59EC6001C3B5A /* jpush-ios-3.2.8.a in Frameworks */,
+				3D6AC14D23B59EC6001C3B5A /* jpush-extension-ios-1.1.2.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -94,6 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				3D57415123B4A01100B066C7 /* jiguangDemo */,
+				3D6AC13123B599C3001C3B5A /* Swift-JiGuangDemo */,
 				3D57415023B4A01100B066C7 /* Products */,
 				3D57417623B4A23800B066C7 /* Frameworks */,
 			);
@@ -103,6 +160,7 @@
 			isa = PBXGroup;
 			children = (
 				3D57414F23B4A01100B066C7 /* jiguangDemo.app */,
+				3D6AC13023B599C3001C3B5A /* Swift-JiGuangDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -167,6 +225,45 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		3D6AC13123B599C3001C3B5A /* Swift-JiGuangDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3D6AC14623B59EC6001C3B5A /* Vendor */,
+				3D6AC14423B599E2001C3B5A /* Swift-JiGuangDemo.entitlements */,
+				3D6AC13223B599C3001C3B5A /* AppDelegate.swift */,
+				3D6AC13423B599C3001C3B5A /* SceneDelegate.swift */,
+				3D6AC13623B599C3001C3B5A /* ViewController.swift */,
+				3D6AC13823B599C3001C3B5A /* Main.storyboard */,
+				3D6AC13B23B599CA001C3B5A /* Assets.xcassets */,
+				3D6AC13D23B599CA001C3B5A /* LaunchScreen.storyboard */,
+				3D6AC14023B599CA001C3B5A /* Info.plist */,
+				3D6AC14523B59E8D001C3B5A /* Swift-JiGuangDemo-Bridging-Header.h */,
+				3D6AC15A23B5A5F2001C3B5A /* JPushPublicManager.swift */,
+			);
+			path = "Swift-JiGuangDemo";
+			sourceTree = "<group>";
+		};
+		3D6AC14623B59EC6001C3B5A /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				3D6AC14723B59EC6001C3B5A /* Lib-noidfa */,
+			);
+			name = Vendor;
+			path = jiguangDemo/Vendor;
+			sourceTree = SOURCE_ROOT;
+		};
+		3D6AC14723B59EC6001C3B5A /* Lib-noidfa */ = {
+			isa = PBXGroup;
+			children = (
+				3D6AC14823B59EC6001C3B5A /* jpush-extension-ios-1.1.2.a */,
+				3D6AC14923B59EC6001C3B5A /* JPushNotificationExtensionService.h */,
+				3D6AC14A23B59EC6001C3B5A /* jpush-ios-3.2.8.a */,
+				3D6AC14B23B59EC6001C3B5A /* JPUSHService.h */,
+				3D6AC14C23B59EC6001C3B5A /* jcore-noidfa-ios-2.1.8.a */,
+			);
+			path = "Lib-noidfa";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -187,16 +284,37 @@
 			productReference = 3D57414F23B4A01100B066C7 /* jiguangDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
+		3D6AC12F23B599C3001C3B5A /* Swift-JiGuangDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D6AC14323B599CA001C3B5A /* Build configuration list for PBXNativeTarget "Swift-JiGuangDemo" */;
+			buildPhases = (
+				3D6AC12C23B599C3001C3B5A /* Sources */,
+				3D6AC12D23B599C3001C3B5A /* Frameworks */,
+				3D6AC12E23B599C3001C3B5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swift-JiGuangDemo";
+			productName = "Swift-JiGuangDemo";
+			productReference = 3D6AC13023B599C3001C3B5A /* Swift-JiGuangDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		3D57414723B4A01100B066C7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1120;
 				LastUpgradeCheck = 1120;
 				ORGANIZATIONNAME = "贺文杰";
 				TargetAttributes = {
 					3D57414E23B4A01100B066C7 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					3D6AC12F23B599C3001C3B5A = {
 						CreatedOnToolsVersion = 11.2.1;
 					};
 				};
@@ -215,6 +333,7 @@
 			projectRoot = "";
 			targets = (
 				3D57414E23B4A01100B066C7 /* jiguangDemo */,
+				3D6AC12F23B599C3001C3B5A /* Swift-JiGuangDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -227,6 +346,16 @@
 				3D57416223B4A01A00B066C7 /* LaunchScreen.storyboard in Resources */,
 				3D57415F23B4A01A00B066C7 /* Assets.xcassets in Resources */,
 				3D57415D23B4A01100B066C7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D6AC12E23B599C3001C3B5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D6AC13F23B599CA001C3B5A /* LaunchScreen.storyboard in Resources */,
+				3D6AC13C23B599CA001C3B5A /* Assets.xcassets in Resources */,
+				3D6AC13A23B599C3001C3B5A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,6 +374,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3D6AC12C23B599C3001C3B5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D6AC13723B599C3001C3B5A /* ViewController.swift in Sources */,
+				3D6AC13323B599C3001C3B5A /* AppDelegate.swift in Sources */,
+				3D6AC13523B599C3001C3B5A /* SceneDelegate.swift in Sources */,
+				3D6AC15B23B5A5F2001C3B5A /* JPushPublicManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
@@ -260,6 +400,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				3D57416123B4A01A00B066C7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3D6AC13823B599C3001C3B5A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D6AC13923B599C3001C3B5A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3D6AC13D23B599CA001C3B5A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D6AC13E23B599CA001C3B5A /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -429,6 +585,66 @@
 			};
 			name = Release;
 		};
+		3D6AC14123B599CA001C3B5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Swift-JiGuangDemo/Swift-JiGuangDemo.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = F87FYPRFA8;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/Swift-JiGuangDemo/Vendor/Lib-noidfa";
+				INFOPLIST_FILE = "Swift-JiGuangDemo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Swift-JiGuangDemo/Vendor/Lib-noidfa",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hewenjie.allFunctions;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = dev_allFunctions;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Swift-JiGuangDemo/Swift-JiGuangDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3D6AC14223B599CA001C3B5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Swift-JiGuangDemo/Swift-JiGuangDemo.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = F87FYPRFA8;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/Swift-JiGuangDemo/Vendor/Lib-noidfa";
+				INFOPLIST_FILE = "Swift-JiGuangDemo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Swift-JiGuangDemo/Vendor/Lib-noidfa",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hewenjie.allFunctions;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = dev_allFunctions;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Swift-JiGuangDemo/Swift-JiGuangDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -446,6 +662,15 @@
 			buildConfigurations = (
 				3D57416923B4A01A00B066C7 /* Debug */,
 				3D57416A23B4A01A00B066C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D6AC14323B599CA001C3B5A /* Build configuration list for PBXNativeTarget "Swift-JiGuangDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D6AC14123B599CA001C3B5A /* Debug */,
+				3D6AC14223B599CA001C3B5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
